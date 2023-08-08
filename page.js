@@ -55,7 +55,7 @@ app.post('/Scorecard',(req,res,next)=>{
 
 
 app.post('/',(req,res,next)=>{
-    console.log(req.body)
+    console.log(req.body) 
 })
 
 app.get('/Goalmap', async (req,res,next)=>{
