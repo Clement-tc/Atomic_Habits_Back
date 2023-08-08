@@ -1,0 +1,93 @@
+
+.habits_scorecard_container{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+
+}
+.habits_scorecard_atomic{
+
+    font-size: 80px;
+}
+html{
+
+}
+body{
+    min-height: 100vh;
+    font-family: 'Century Gothic Paneuropean', sans-serif;
+    font-size: 16px;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.habits_scorecard_title{
+    font-size: 60px;
+    background-color: black;
+    color: white;
+    margin-bottom: 30px;
+}
+.routine-element{
+    border-radius: 10px;
+    width: 100%;
+    height: 33px;
+    margin-bottom: 15px;
+    font-family: 'Century Gothic Paneuropean', sans-serif;
+    font-size: 16px;
+}
+
+.routine-elements{
+    text-align: left;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.scorecard-button{
+    position: relative;
+    border:1px solid;
+    padding:6.5px 10px ;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.scorecard-button-grid{
+    padding: 0px 5px;
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap:5px;
+    align-items: center;
+}
+
+.scorecard-button-grid-row{
+
+}
+.scorecard-button-description-grid{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap:5px;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    border-top-right-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.scorecard-thehabit{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    height: 60px;
+    color:white;
+    margin-bottom: 10px;
+    border-top-left-radius: 10px;
+
+}
